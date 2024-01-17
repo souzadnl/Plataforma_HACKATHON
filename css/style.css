@@ -200,7 +200,6 @@ header {
   background: none;
 }
 
-
 .link-botao-adicionar {
   display: flex;
   background: #007BC0;
@@ -311,4 +310,53 @@ header {
 
 #div-alternativas h1 {
   margin: auto;
+}
+
+.botao-questao {
+  height: 50px;
+  color: white;
+  border-radius: 14px;
+  border: none;
+  width: 200px;
+  padding: 5px 25px;
+  justify-content: space-between;
+  text-decoration: none;
+  font-family: BoschSansCHS-Regular;
+}
+
+#botao-adicionar {
+  background: #008d13;
+}
+
+#botao-adicionar:hover {
+  background: #00700f;
+  transition: all 0.5s;
+}
+
+#botao-cancelar {
+  border: solid 1px rgb(119, 119, 119);
+  background: white;
+  color: #585858;
+}
+
+#botao-cancelar:hover {
+  transition: all 1s;
+  border: none;
+  color: white;
+  background: #ED0007;
+}
+
+
+
+.link-estilizado {
+  font-size: 23px;
+  text-decoration: none;
+  color: #4B8CEF;
+}
+
+.div-botoes-adicionar{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 50px;
 }

@@ -23,7 +23,7 @@
 
             <div class="subHeader">
                 <div>
-                    <a href="index.html">
+                    <a href="home.html">
                         <img src="img/Bosch_symbol_logo_black_red.svg" alt="">
                     </a>
                 </div>
@@ -43,16 +43,16 @@
 
         <div class="card-estilizado" id="card-adicionar">
             <div>
-                <form>
+                <form action="Adicionado.html">
                     <div id="div-adicionar-topo">
                         <div>
                             <label for="titulo">Título</label><br>
-                            <input type="text" name="titulo" placeholder="Insira o titulo" class="input-estilizado">
+                            <input type="text" name="titulo" placeholder="Insira o titulo" class="input-estilizado" required>
                         </div>
                         
                         <div >
                             <label for="materia">Matéria</label><br>
-                            <select class="input-estilizado" name="materia">
+                            <select class="input-estilizado" name="materia" required>
                                 <option selected disabled>Selecione a matéria</option>
                                 <option value="matematica">Matemática</option>
                                 <option value="raciocionio">Raciocinio Lógico</option>
@@ -63,7 +63,7 @@
     
                         <div>
                             <label for="peso">Peso</label><br>
-                            <select class="input-estilizado" name="peso">
+                            <select class="input-estilizado" name="peso" required>
                                 <option selected disabled>Selecione o peso</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -74,7 +74,7 @@
 
                         <div>
                             <label for="dificuldade">Dificuldade</label><br>
-                            <select class="input-estilizado" name="dificuldade">
+                            <select class="input-estilizado" name="dificuldade" required>
                                 <option selected disabled>Selecione a dificuldade</option>
                                 <option value="facil">Fácil</option>
                                 <option value="medio">Médio</option>
@@ -86,7 +86,7 @@
 
                     <div id="div-enunciado">
                         <label for="enunciado">Enunciado</label><br>
-                        <textarea placeholder="Insira o enunciado" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado"></textarea>
+                        <textarea placeholder="Insira o enunciado" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado" required></textarea>
                     </div>
 
                     <div id="div-alternativas">
@@ -94,38 +94,43 @@
                         <div id="alternativas">
                             <div class="alternativa">
                                 <h1>A</h1>
-                                <textarea placeholder="Insira a alternativa A" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado"></textarea>
+                                <textarea placeholder="Insira a alternativa A" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado" required></textarea>
                             </div>
 
                             <div class="alternativa">
                                 <h1>B</h1>
-                                <textarea placeholder="Insira a alternativa B" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado"></textarea>
+                                <textarea placeholder="Insira a alternativa B" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado" required></textarea>
                             </div>
 
                             <div class="alternativa">
                                 <h1>C</h1>
-                                <textarea placeholder="Insira a alternativa C" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado"></textarea>
+                                <textarea placeholder="Insira a alternativa C" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado" required></textarea>
                             </div>
 
                             <div class="alternativa">
                                 <h1>D</h1>
-                                <textarea placeholder="Insira a alternativa D" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado"></textarea>
+                                <textarea placeholder="Insira a alternativa D" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado" required></textarea>
                             </div>
 
                             <div class="alternativa">
                                 <h1>E</h1>
-                                <textarea placeholder="Insira a alternativa E" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado"></textarea>
+                                <textarea placeholder="Insira a alternativa E" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado" required></textarea>
                             </div>
                             
                         </div>
 
-                        <div style="text-align: end;">
-                            <button class="botao-adicionar">
-                                <h1 >Adicionar</h1>
-                                <img src="img/Add.png">
-                            </button>
-                        </div>
+                        <div class="div-botoes-adicionar">
+                            <div style="text-align: end;">
+                                <input type="reset" value="Cancelar" class="botao-questao" id="botao-cancelar">
+                            </div>
+    
 
+                            <div style="text-align: end;">
+                                <a href="Adicionado.html">
+                                    <input type="submit" value="Adicionar" class="botao-questao" id="botao-adicionar">
+                                </a>
+                            </div>
+                        </div>
 
                     </div>
                     
