@@ -178,7 +178,22 @@ header {
   color: white;
   margin-right: 30px;
   padding: 40px;
+  border-radius: 14px;
+}
 
+.card-opcoes:hover{
+  transition: all 0.3s;
+  scale: 1.05;
+}
+
+.card-opcoes:hover h1{
+  transition: all 0.4s;
+  font-size: 75px;
+}
+
+.card-opcoes:hover h2{
+  transition: all 0.4s;
+  font-size: 22px;
 }
 
 .card-opcoes h1{
@@ -204,10 +219,15 @@ header {
   display: flex;
   background: #007BC0;
   border-radius: 14px;
-  width: 200px;
+  width: 250px;
   padding: 5px 25px;
   justify-content: space-between;
   text-decoration: none;
+}
+
+.div-gerar-prova{
+  display: flex;
+  justify-content: space-between;
 }
 
 .link-botao-adicionar:hover {
@@ -346,8 +366,6 @@ header {
   background: #ED0007;
 }
 
-
-
 .link-estilizado {
   font-size: 23px;
   text-decoration: none;
@@ -360,3 +378,4 @@ header {
   justify-content: right;
   gap: 50px;
 }
+
