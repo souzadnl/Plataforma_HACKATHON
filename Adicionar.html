@@ -38,7 +38,7 @@
     <section class="container section-principal">
 
         <div>
-            <h1 class="titulo-principal">Adicione uma questão</h1>
+            <h1 class="titulo-principal">Adicione uma nova questão</h1>
         </div>
 
         <div class="card-estilizado" id="card-adicionar">
@@ -94,27 +94,39 @@
                         <div id="alternativas">
                             <div class="alternativa">
                                 <h1>A</h1>
-                                <textarea placeholder="Insira a alternativa A" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado" required></textarea>
+                                <textarea placeholder="Insira a alternativa A" class="input-estilizado textearea-estilizado" maxlength="400" name="opcao_a" required></textarea>
                             </div>
 
                             <div class="alternativa">
                                 <h1>B</h1>
-                                <textarea placeholder="Insira a alternativa B" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado" required></textarea>
+                                <textarea placeholder="Insira a alternativa B" class="input-estilizado textearea-estilizado" maxlength="400" name="opcao_b" required></textarea>
                             </div>
 
                             <div class="alternativa">
                                 <h1>C</h1>
-                                <textarea placeholder="Insira a alternativa C" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado" required></textarea>
+                                <textarea placeholder="Insira a alternativa C" class="input-estilizado textearea-estilizado" maxlength="400" name="opcao_c" required></textarea>
                             </div>
 
                             <div class="alternativa">
                                 <h1>D</h1>
-                                <textarea placeholder="Insira a alternativa D" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado" required></textarea>
+                                <textarea placeholder="Insira a alternativa D" class="input-estilizado textearea-estilizado" maxlength="400" name="opcao_d" required></textarea>
                             </div>
 
                             <div class="alternativa">
                                 <h1>E</h1>
-                                <textarea placeholder="Insira a alternativa E" class="input-estilizado textearea-estilizado" maxlength="400" name="enunciado" required></textarea>
+                                <textarea placeholder="Insira a alternativa E" class="input-estilizado textearea-estilizado" maxlength="400" name="opcao_e" required></textarea>
+                            </div>
+
+                            <div>
+                                <label for="correta">Alternativa correta</label><br>
+                                <select class="input-estilizado" name="correta" required>
+                                    <option selected disabled>Selecione a alternativa</option>
+                                    <option value="A">A</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="D">D</option>
+                                    <option value="E">E</option>
+                                </select>
                             </div>
                             
                         </div>
