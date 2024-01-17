@@ -181,21 +181,6 @@ header {
   border-radius: 14px;
 }
 
-.card-opcoes:hover{
-  transition: all 0.3s;
-  scale: 1.05;
-}
-
-.card-opcoes:hover h1{
-  transition: all 0.4s;
-  font-size: 75px;
-}
-
-.card-opcoes:hover h2{
-  transition: all 0.4s;
-  font-size: 22px;
-}
-
 .card-opcoes h1{
   font-family: BoschSansCHS-Light;
   font-size: 65px;
@@ -219,15 +204,10 @@ header {
   display: flex;
   background: #007BC0;
   border-radius: 14px;
-  width: 250px;
+  width: 260px;
   padding: 5px 25px;
   justify-content: space-between;
   text-decoration: none;
-}
-
-.div-gerar-prova{
-  display: flex;
-  justify-content: space-between;
 }
 
 .link-botao-adicionar:hover {
@@ -366,6 +346,11 @@ header {
   background: #ED0007;
 }
 
+.div-gerar-prova{
+  display: flex;
+  justify-content: space-between;
+}
+
 .link-estilizado {
   font-size: 23px;
   text-decoration: none;
@@ -379,3 +364,75 @@ header {
   gap: 50px;
 }
 
+#div-prova{
+  padding: 80px;
+  margin-bottom: 50px;
+}
+
+#div-prova h2{
+  color: #9e9e9e;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#form-prova{
+  margin-top: 80px;
+}
+
+#form-prova h2{
+  font-size: 24px;
+  font-weight: 400;
+
+}
+
+.div-respostas{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  float: left;
+  margin: 80px 40px;
+}
+
+.input-label{
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.input-label input{
+    height: 35px;
+}
+
+.sub-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.enviar-prova{
+  width: 180px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #00884A;
+  border: none;
+  color: white;
+  float: right;
+  margin: 50px;
+}
+
+.card-opcoes:hover{
+  transition: all 0.3s;
+  scale: 1.05;
+}
+
+.card-opcoes:hover h1{
+  transition: all 0.4s;
+  font-size: 75px;
+}
+
+.card-opcoes:hover h2{
+  transition: all 0.4s;
+  font-size: 22px;
+}
