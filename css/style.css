@@ -249,10 +249,6 @@ header {
   color: #5B5B5B;
 }
 
-#opcoes-questao {
-  margin: auto 0px;
-}
-
 #opcoes-questao span{
   font-size: 20px;
   font-family: BoschSansCHS-Regular;
@@ -267,6 +263,24 @@ header {
   text-decoration: none;
 }
 
+#opcoes-questao button{
+  background: #007BC0;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#opcoes-questao a {
+  color: white;
+  text-decoration: none;
+}
+
+#opcoes-questao button:hover {
+  background: #015485;
+  transition: all 0.6s;
+}
 .titulo-principal {
   color: #5B5B5B;
   font-size: 40px;
